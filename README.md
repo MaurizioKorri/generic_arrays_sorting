@@ -1,5 +1,9 @@
 # generic_arrays_sorting
-A small library with two generic sorting algorithms implementation in C 
+A small library with two sorting algorithms implementation in C.
+
+Both algorithms accept generic types of arrays and a pointer to a compare function is needed as parameter when calling the sorting functions to compare the various elements of the arrays. 
+
+_______________________________________________________
 
 The library offers two sorting algorithms: 
 - Binary Insertion Sort
@@ -30,5 +34,10 @@ Time complexity:
   Space complexity: 
   1. O(log N)
   
+______________________________________________________________
+Unit tests are also provided for the two sorting algorithms using the unit test library Unity: https://github.com/ThrowTheSwitch/Unity
+
+A simple usage example is provided in the sorting_usage_main.c file. 
+
 
 
